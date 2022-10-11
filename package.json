@@ -1,7 +1,7 @@
 {
-  "name": "monkey",
+  "name": "no-mobile-wiki",
   "version": "0.0.1",
-  "description": "write description here",
+  "description": "永远不使用手机版wiki，为什么用谷歌搜索wiki时，第一条总给我手机版网页？我想看PC版不行吗？本脚本发现手机版网页立即强制跳转PC版网页，解决你这个问题。",
   "main": "/dist/app.user.js",
   "scripts": {
     "start": "webpack serve --config ./config/webpack.dev.js",
@@ -12,18 +12,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourname/your-app.git"
+    "url": "git+https://github.com/forestsheep911/monkey-no-mobile-wiki.git"
   },
   "keywords": [
+    "wiki",
     "TamperMonkey",
     "typescript"
   ],
   "author": "you",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yourname/your-app/issues"
+    "url": "https://github.com/forestsheep911/monkey-no-mobile-wiki/issues"
   },
-  "homepage": "https://github.com/yourname/your-app#readme",
+  "homepage": "https://github.com/forestsheep911/monkey-no-mobile-wiki/blob/main/readme.md",
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/preset-env": "^7.16.11",

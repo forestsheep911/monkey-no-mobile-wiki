@@ -1,16 +1,16 @@
 const pj = require('../package.json')
 module.exports = {
   name: pj.name,
-  namespace: `https://github.com/${pj.author}/${pj.name}`,
+  namespace: `https://github.com/monkey-${pj.author}/${pj.name}`,
   version: '0.0.1',
-  description: 'awesome',
+  description: pj.description,
   author: `${pj.author}`,
   copyright: `${pj.author}`,
   license: 'MIT',
-  match: ['https://*'],
+  match: ['https://*.wikipedia.org/*'],
   'run-at': 'document-start',
-  supportURL: 'https://yourURL',
-  homepage: `${pj.homepage}`,
+  supportURL: pj.bugs.url,
+  homepage: pj.homepage,
   grant: [],
   icon: 'https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-wiki-productivity-flaticons-lineal-color-flat-icons-5.png',
 }
